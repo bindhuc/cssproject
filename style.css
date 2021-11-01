@@ -102,30 +102,20 @@ border-radius: 10px;
 box-shadow: 9px 9px rgb(218, 214, 214);
 }
 h1 {
-text-align: center;
+text-align: center; 
 }
-  h1:before,
-  h1:after {
-   
-    content: "";
-    display: inline-block;
-    height: 1px;
-    border-radius: 2px;
-    border-width: 2px;
-    vertical-align: middle;
-    width: 10%;
+.tag1{
+width: 12%;
+margin-top: 20px;
+margin-left: 410px;
+position: absolute;
+
   }
-  
-  h1:before {
-    right: 0.5em;
-    margin-left: -50%;
-    background-color: grey;
-  }
-  
-  h1:after {
-    left: 0.5em;
-    margin-right: -50%;
-    background-color: black;
-  }
-  
-  
+.tag2
+{
+    width: 12%;
+    margin-top: 20px;
+    margin-left: 780px;
+    position: absolute;
+
+}  
