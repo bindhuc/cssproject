@@ -1,0 +1,131 @@
+.cont{
+    margin-left: 380px;
+    margin-top: 150px;
+    font-family: "adobe-clean", sans-serif;
+   font-size: 45px;
+   display: flex;
+}
+#Lists{
+    color: rgb(85, 78, 78) ;
+    
+    font-weight: 100;
+}
+#Tasks{
+    
+    font-weight: bolder;
+}
+.container{
+    width: 650px;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "adobe-clean", sans-serif;
+    height: 330px;
+ 
+}
+.items{
+    border: 1px solid red ;
+    margin: 25px;
+    box-sizing: border-box;
+    
+}
+
+
+#box1{
+float: left;
+width: 40%;
+color: red;
+border-radius: 10px;
+box-shadow: 9px 9px rgb(218, 214, 214);
+
+}
+#box2{
+clear: both;
+width: 40%;
+color: red;   
+border-radius: 10px;
+box-shadow: 9px 9px rgb(218, 214, 214);
+}
+#box3{
+clear: both;
+width: 40%;
+color: red;
+border-radius: 10px;
+box-shadow: 9px 9px rgb(218, 214, 214);
+}
+.normal{
+float: left;
+color: black;
+}
+#add{
+color: black;
+font-family: "adobe-clean", sans-serif;
+font-size:25px;
+margin-left: 20px;
+margin-top: 12px;
+}
+.blur{
+filter: blur(10px);
+}
+.page3{
+width: 250px; 
+height: 120px; 
+position: absolute; 
+top: 300px;
+left: 550px;
+border:1px solid red;
+border-radius: 10px;
+color: rgb(204, 47, 47);
+text-align: center;
+box-shadow: 9px 9px rgb(218, 214, 214);
+}
+.page2{
+margin-left: 510px;
+margin-top: 50px;
+font-family: "adobe-clean", sans-serif;
+font-size: 20px;
+}
+.fas{
+margin-top: 130px;
+margin-left: 260px;
+}
+.box4{
+width: 300px;
+height: 350px;
+border: 1px solid red ;
+margin-right: 5px;
+text-align: center;
+box-sizing: border-box;
+color: rgb(204, 47, 47);
+border-radius: 10px;
+box-shadow: 9px 9px rgb(218, 214, 214);
+}
+h1 {
+text-align: center;
+}
+  h1:before,
+  h1:after {
+   
+    content: "";
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border-width: 2px;
+    vertical-align: middle;
+    width: 10%;
+  }
+  
+  h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+    background-color: grey;
+  }
+  
+  h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+    background-color: black;
+  }
+  
+  
