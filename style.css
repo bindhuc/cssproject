@@ -3,7 +3,8 @@
     margin-top: 150px;
     font-family: "adobe-clean", sans-serif;
    font-size: 45px;
-   display: flex;
+   
+   width: 700px;
 }
 #Lists{
     color: rgb(85, 78, 78) ;
@@ -78,6 +79,8 @@ border:1px solid red;
 border-radius: 10px;
 color: rgb(204, 47, 47);
 text-align: center;
+justify-content: center;
+
 box-shadow: 9px 9px rgb(218, 214, 214);
 }
 .page2{
@@ -119,3 +122,27 @@ position: absolute;
     position: absolute;
 
 }  
+@media(max-width:600px)
+{
+    .cont{
+width: 80%;
+display: block;
+
+    }
+    .items{
+        display: flex;
+        width: 30%;
+    }
+    #add{
+        display: none;
+    }
+    #box1{
+        display: block;
+    }
+    #box2{
+        display: block;
+    }
+    #box3{
+        display: block;
+    }
+}
