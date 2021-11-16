@@ -6,6 +6,7 @@
    
    width: 700px;
 }
+
 #Lists{
     color: rgb(85, 78, 78) ;
     
@@ -121,8 +122,9 @@ position: absolute;
     margin-left: 780px;
     position: absolute;
 
-}  
-@media(max-width:600px)
+}
+ 
+/* @media(max-width:600px)
 {
     .cont{
 width: 80%;
@@ -145,4 +147,4 @@ display: block;
     #box3{
         display: block;
     }
-}
+} */
